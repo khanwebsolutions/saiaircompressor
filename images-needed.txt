@@ -1,0 +1,29 @@
+Save these files in the SAME folder as index.html (webp format).
+
+HERO SLIDER (optional, wide photos, about 1600x900)
+  hero1.webp   hero2.webp   hero3.webp
+
+ABOUT / WHY CHOOSE US
+  aboutus.webp        (portrait or square, team or machine at work)
+  whychooseus.webp    (portrait, about 4:5)
+
+SERVICES (landscape, about 4:3, 1000x750)
+  diamondcutting.webp
+  corecutting.webp
+  chemicalboltfixing.webp
+  concretecutting.webp
+  rccbreaking.webp
+  groovecutting.webp
+  anchorboltfixing.webp
+  rockanchoring.webp
+
+CERTIFICATES (portrait scans, about 3:4)
+  pwdcertificate.webp
+  gstcertificate.webp
+  udyamcertificate.webp
+
+LATEST PROJECTS (landscape, about 4:3, 1000x750). Slides right to left on its own, no captions.
+  1.webp  2.webp  3.webp  4.webp  5.webp  6.webp  7.webp  8.webp  9.webp
+
+Until a file exists, its box shows a placeholder with the file name.
+LOGO: logo.png (transparent background) is also provided; it is already embedded inside index.html.
