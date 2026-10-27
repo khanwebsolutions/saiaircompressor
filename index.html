@@ -440,7 +440,8 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
 .gal-thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .gal.single .gal-nav, .gal.single .gal-bar, .gal.none .gal-nav, .gal.none .gal-bar, .gal.none .gal-count { display: none; }
 .gal.none .gal-stage { aspect-ratio: auto; min-height: 220px; cursor: default; }
-@media (max-width: 640px) { .gal-stage { aspect-ratio: 4 / 3; } .gal-nav { width: 42px; height: 42px; margin-top: -21px; } .gal-thumbs button { width: 80px; } }
+.gal-stage { transition: aspect-ratio .35s ease; }
+@media (max-width: 640px) { .gal-stage { aspect-ratio: 4 / 3; } .gslide img { object-fit: contain; } .gal-nav { width: 42px; height: 42px; margin-top: -21px; } .gal-thumbs button { width: 80px; } }
 @media (prefers-reduced-motion: reduce) { .gslide { transition: opacity .3s; transform: none !important; } .gal-flash.go { animation: none; } }
 </style>
 
@@ -499,7 +500,7 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
 <!-- ================= HERO SLIDER ================= -->
 <section class="hero band" aria-label="Sai Air Compressor">
   <div class="hero-banner" id="herobanner">
-    <img src="hero.webp" width="1362" height="768" fetchpriority="high" alt="Sai Air Compressor banner: core cutting, concrete cutting and compressor works">
+    <img src="hero.webp?v=20261027" width="1362" height="768" fetchpriority="high" alt="Sai Air Compressor banner: core cutting, concrete cutting and compressor works">
     <span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>hero.webp</span>
     <a class="hero-hit" href="#contact" aria-label="Get a quote"></a>
   </div>
@@ -534,7 +535,7 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
 <section class="sec" id="about" aria-labelledby="about-h">
   <div class="wrap about">
     <div class="about-img">
-      <div class="media" data-img><img src="aboutus.webp" alt="Jitendra Kumar Samal, owner of Sai Air Compressor"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>aboutus.webp</span></div>
+      <div class="media" data-img><img src="aboutus.webp?v=20261027" alt="Jitendra Kumar Samal, owner of Sai Air Compressor"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>aboutus.webp</span></div>
       <div class="about-badge"><b>Jitendra Kumar Samal</b><span>Owner, M/S Sai Air Compressor</span></div>
     </div>
     <div class="copy-block">
@@ -563,18 +564,18 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
       <div><span class="kicker">What we do</span><h2 class="h2" id="svc-h">Our services</h2></div>
       <p class="lead">Twelve services for plants, factories, buildings, roads and rock. Pick the one you need and send us the job details.</p>
     </div>
-    <div class="cards"><article class="card" id="svc-core"><div class="media" data-img><img src="corecutting.webp" alt="Core cutting and drilling by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>corecutting.webp</span></div><div class="card-body"><h3>Core cutting &amp; drilling</h3><p class="sum">Hilti diamond core drilling for holes of every size in concrete, brick and stone, with core cutting, hand core and magnetic core drill machines.</p><ul class="uses"><li>Pipes and cables</li><li>Magnetic drilling</li><li>Anchor holes</li></ul><a class="more" href="#contact" data-svc="core">Get a quote</a></div></article>
-<article class="card" id="svc-diamond"><div class="media" data-img><img src="diamondcutting.webp" alt="Wall saw and wire saw cutting by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>diamondcutting.webp</span></div><div class="card-body"><h3>Wall saw &amp; wire saw cutting</h3><p class="sum">Diamond wall saw and wire saw cutting through thick walls, slabs, beams and heavy structures, with a clean edge and little vibration.</p><ul class="uses"><li>Openings</li><li>Slab removal</li><li>Heavy sections</li></ul><a class="more" href="#contact" data-svc="diamond">Get a quote</a></div></article>
-<article class="card" id="svc-concrete"><div class="media" data-img><img src="concretecutting.webp" alt="Floor and concrete cutting by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>concretecutting.webp</span></div><div class="card-body"><h3>Floor &amp; concrete cutting</h3><p class="sum">Floor cutting machines and diamond tools for plain and reinforced concrete in floors, roads and foundations, to the line and depth you set.</p><ul class="uses"><li>Floor and road cutting</li><li>Service trenches</li><li>Wall openings</li></ul><a class="more" href="#contact" data-svc="concrete">Get a quote</a></div></article>
-<article class="card" id="svc-breaking"><div class="media" data-img><img src="rccbreaking.webp" alt="Concrete breaking and chipping by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>rccbreaking.webp</span></div><div class="card-body"><h3>Concrete breaking &amp; chipping</h3><p class="sum">Controlled RCC breaking with breakers, jack hammers and electric chippers. A metal detector helps locate rebar before work starts.</p><ul class="uses"><li>Slab and beam</li><li>Column and footing</li><li>Renovation</li></ul><a class="more" href="#contact" data-svc="breaking">Get a quote</a></div></article>
-<article class="card" id="svc-grouting"><div class="media" data-img><img src="chemicalboltfixing.webp" alt="Grouting work by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>chemicalboltfixing.webp</span></div><div class="card-body"><h3>Grouting work</h3><p class="sum">Pressure grouting and foundation grouting with chemical guns and air compressors, for filling voids and strengthening foundations.</p><ul class="uses"><li>Pressure grouting</li><li>Foundation grouting</li><li>Chemical gun</li></ul><a class="more" href="#contact" data-svc="grouting">Get a quote</a></div></article>
-<article class="card" id="svc-bolt"><div class="media" data-img><img src="anchorboltfixing.webp" alt="Chemical and anchor bolting by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>anchorboltfixing.webp</span></div><div class="card-body"><h3>Chemical &amp; anchor bolting</h3><p class="sum">Threaded rods and rebar set in resin, and mechanical anchors, drilled and fixed for machines, base plates and heavy loads.</p><ul class="uses"><li>Base plates</li><li>Rebar dowels</li><li>Machinery</li></ul><a class="more" href="#contact" data-svc="bolt">Get a quote</a></div></article>
-<article class="card" id="svc-rock"><div class="media" data-img><img src="rockanchoring.webp" alt="Rock drilling, piling and wire net by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>rockanchoring.webp</span></div><div class="card-body"><h3>Rock drilling, piling &amp; wire net</h3><p class="sum">RD rock drilling, earth piling and wire net work for rock faces, slopes and foundations.</p><ul class="uses"><li>RD rock drilling</li><li>Earth piling</li><li>Wire net</li></ul><a class="more" href="#contact" data-svc="rock">Get a quote</a></div></article>
-<article class="card" id="svc-waterproof"><div class="media" data-img><img src="waterproofing.webp" alt="Waterproofing and painting by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>waterproofing.webp</span></div><div class="card-body"><h3>Waterproofing &amp; painting</h3><p class="sum">All types of waterproofing as authorised applicator of Sika, Fosroc and MYK, plus painting and Asian Paints distribution.</p><ul class="uses"><li>Sika</li><li>Fosroc</li><li>MYK</li><li>Asian Paints</li></ul><a class="more" href="#contact" data-svc="waterproof">Get a quote</a></div></article>
-<article class="card" id="svc-compressor"><div class="media" data-img><img src="compressorwork.webp" alt="Compressor work, bore wash and sand blasting by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>compressorwork.webp</span></div><div class="card-body"><h3>Compressor work, bore wash &amp; sand blasting</h3><p class="sum">Air compressor work for blasting, bore wash and pneumatic tools, supported by our own compressors.</p><ul class="uses"><li>Compressor work</li><li>Bore wash</li><li>Sand blasting</li></ul><a class="more" href="#contact" data-svc="compressor">Get a quote</a></div></article>
-<article class="card" id="svc-fabrication"><div class="media" data-img><img src="fabrication.webp" alt="Mechanical fabrication and erection by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>fabrication.webp</span></div><div class="card-body"><h3>Mechanical fabrication &amp; erection</h3><p class="sum">All types of mechanical work: fabrication, erection and commissioning for plants and factories.</p><ul class="uses"><li>Fabrication</li><li>Erection</li><li>Commissioning</li></ul><a class="more" href="#contact" data-svc="fabrication">Get a quote</a></div></article>
-<article class="card" id="svc-civil"><div class="media" data-img><img src="civilwork.webp" alt="Civil and government works by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>civilwork.webp</span></div><div class="card-body"><h3>Civil &amp; government works</h3><p class="sum">All types of civil work, and building and road works for government departments as an Odisha PWD Class A contractor.</p><ul class="uses"><li>Civil work</li><li>Building works</li><li>Road works</li></ul><a class="more" href="#contact" data-svc="civil">Get a quote</a></div></article>
-<article class="card" id="svc-manpower"><div class="media" data-img><img src="manpower.webp" alt="Manpower supply by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>manpower.webp</span></div><div class="card-body"><h3>Manpower supply</h3><p class="sum">Trained workers and supervisors supplied for civil, cutting, blasting and mechanical jobs at plant and project sites.</p><ul class="uses"><li>Skilled crew</li><li>Plant sites</li><li>Project sites</li></ul><a class="more" href="#contact" data-svc="manpower">Get a quote</a></div></article>
+    <div class="cards"><article class="card" id="svc-core"><div class="media" data-img><img src="corecutting.webp?v=20261027" alt="Core cutting and drilling by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>corecutting.webp</span></div><div class="card-body"><h3>Core cutting &amp; drilling</h3><p class="sum">Hilti diamond core drilling for holes of every size in concrete, brick and stone, with core cutting, hand core and magnetic core drill machines.</p><ul class="uses"><li>Pipes and cables</li><li>Magnetic drilling</li><li>Anchor holes</li></ul><a class="more" href="#contact" data-svc="core">Get a quote</a></div></article>
+<article class="card" id="svc-diamond"><div class="media" data-img><img src="diamondcutting.webp?v=20261027" alt="Wall saw and wire saw cutting by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>diamondcutting.webp</span></div><div class="card-body"><h3>Wall saw &amp; wire saw cutting</h3><p class="sum">Diamond wall saw and wire saw cutting through thick walls, slabs, beams and heavy structures, with a clean edge and little vibration.</p><ul class="uses"><li>Openings</li><li>Slab removal</li><li>Heavy sections</li></ul><a class="more" href="#contact" data-svc="diamond">Get a quote</a></div></article>
+<article class="card" id="svc-concrete"><div class="media" data-img><img src="concretecutting.webp?v=20261027" alt="Floor and concrete cutting by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>concretecutting.webp</span></div><div class="card-body"><h3>Floor &amp; concrete cutting</h3><p class="sum">Floor cutting machines and diamond tools for plain and reinforced concrete in floors, roads and foundations, to the line and depth you set.</p><ul class="uses"><li>Floor and road cutting</li><li>Service trenches</li><li>Wall openings</li></ul><a class="more" href="#contact" data-svc="concrete">Get a quote</a></div></article>
+<article class="card" id="svc-breaking"><div class="media" data-img><img src="rccbreaking.webp?v=20261027" alt="Concrete breaking and chipping by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>rccbreaking.webp</span></div><div class="card-body"><h3>Concrete breaking &amp; chipping</h3><p class="sum">Controlled RCC breaking with breakers, jack hammers and electric chippers. A metal detector helps locate rebar before work starts.</p><ul class="uses"><li>Slab and beam</li><li>Column and footing</li><li>Renovation</li></ul><a class="more" href="#contact" data-svc="breaking">Get a quote</a></div></article>
+<article class="card" id="svc-grouting"><div class="media" data-img><img src="chemicalboltfixing.webp?v=20261027" alt="Grouting work by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>chemicalboltfixing.webp</span></div><div class="card-body"><h3>Grouting work</h3><p class="sum">Pressure grouting and foundation grouting with chemical guns and air compressors, for filling voids and strengthening foundations.</p><ul class="uses"><li>Pressure grouting</li><li>Foundation grouting</li><li>Chemical gun</li></ul><a class="more" href="#contact" data-svc="grouting">Get a quote</a></div></article>
+<article class="card" id="svc-bolt"><div class="media" data-img><img src="anchorboltfixing.webp?v=20261027" alt="Chemical and anchor bolting by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>anchorboltfixing.webp</span></div><div class="card-body"><h3>Chemical &amp; anchor bolting</h3><p class="sum">Threaded rods and rebar set in resin, and mechanical anchors, drilled and fixed for machines, base plates and heavy loads.</p><ul class="uses"><li>Base plates</li><li>Rebar dowels</li><li>Machinery</li></ul><a class="more" href="#contact" data-svc="bolt">Get a quote</a></div></article>
+<article class="card" id="svc-rock"><div class="media" data-img><img src="rockanchoring.webp?v=20261027" alt="Rock drilling, piling and wire net by Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>rockanchoring.webp</span></div><div class="card-body"><h3>Rock drilling, piling &amp; wire net</h3><p class="sum">RD rock drilling, earth piling and wire net work for rock faces, slopes and foundations.</p><ul class="uses"><li>RD rock drilling</li><li>Earth piling</li><li>Wire net</li></ul><a class="more" href="#contact" data-svc="rock">Get a quote</a></div></article>
+<article class="card" id="svc-waterproof"><div class="media" data-img><img src="waterproofing.webp?v=20261027" alt="Waterproofing and painting by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>waterproofing.webp</span></div><div class="card-body"><h3>Waterproofing &amp; painting</h3><p class="sum">All types of waterproofing as authorised applicator of Sika, Fosroc and MYK, plus painting and Asian Paints distribution.</p><ul class="uses"><li>Sika</li><li>Fosroc</li><li>MYK</li><li>Asian Paints</li></ul><a class="more" href="#contact" data-svc="waterproof">Get a quote</a></div></article>
+<article class="card" id="svc-compressor"><div class="media" data-img><img src="compressorwork.webp?v=20261027" alt="Compressor work, bore wash and sand blasting by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>compressorwork.webp</span></div><div class="card-body"><h3>Compressor work, bore wash &amp; sand blasting</h3><p class="sum">Air compressor work for blasting, bore wash and pneumatic tools, supported by our own compressors.</p><ul class="uses"><li>Compressor work</li><li>Bore wash</li><li>Sand blasting</li></ul><a class="more" href="#contact" data-svc="compressor">Get a quote</a></div></article>
+<article class="card" id="svc-fabrication"><div class="media" data-img><img src="fabrication.webp?v=20261027" alt="Mechanical fabrication and erection by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>fabrication.webp</span></div><div class="card-body"><h3>Mechanical fabrication &amp; erection</h3><p class="sum">All types of mechanical work: fabrication, erection and commissioning for plants and factories.</p><ul class="uses"><li>Fabrication</li><li>Erection</li><li>Commissioning</li></ul><a class="more" href="#contact" data-svc="fabrication">Get a quote</a></div></article>
+<article class="card" id="svc-civil"><div class="media" data-img><img src="civilwork.webp?v=20261027" alt="Civil and government works by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>civilwork.webp</span></div><div class="card-body"><h3>Civil &amp; government works</h3><p class="sum">All types of civil work, and building and road works for government departments as an Odisha PWD Class A contractor.</p><ul class="uses"><li>Civil work</li><li>Building works</li><li>Road works</li></ul><a class="more" href="#contact" data-svc="civil">Get a quote</a></div></article>
+<article class="card" id="svc-manpower"><div class="media" data-img><img src="manpower.webp?v=20261027" alt="Manpower supply by M/S Sai Air Compressor" loading="lazy"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>manpower.webp</span></div><div class="card-body"><h3>Manpower supply</h3><p class="sum">Trained workers and supervisors supplied for civil, cutting, blasting and mechanical jobs at plant and project sites.</p><ul class="uses"><li>Skilled crew</li><li>Plant sites</li><li>Project sites</li></ul><a class="more" href="#contact" data-svc="manpower">Get a quote</a></div></article>
 </div>
   </div>
 </section>
@@ -616,28 +617,28 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
     </div>
     <div class="certs">
       <article class="cert">
-        <div class="media contain" data-img data-zoom="Odisha PWD Contractor Registration Certificate"><img src="pwdcertificate.webp" alt="Odisha PWD contractor registration certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>pwdcertificate.webp</span></div>
+        <div class="media contain" data-img data-zoom="Odisha PWD Contractor Registration Certificate"><img src="pwdcertificate.webp?v=20261027" alt="Odisha PWD contractor registration certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>pwdcertificate.webp</span></div>
         <h3>PWD contractor</h3>
         <p>Odisha State, Class A<br>Regd. No. 274LA759, valid up to 31-03-2029</p>
-        <button class="btn btn-ghost btn-sm" type="button" data-open="pwdcertificate.webp" style="color:var(--brand)">View certificate</button>
+        <button class="btn btn-ghost btn-sm" type="button" data-open="pwdcertificate.webp?v=20261027" style="color:var(--brand)">View certificate</button>
       </article>
       <article class="cert">
-        <div class="media contain" data-img data-zoom="GST Registration Certificate"><img src="gstcertificate.webp" alt="GST registration certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>gstcertificate.webp</span></div>
+        <div class="media contain" data-img data-zoom="GST Registration Certificate"><img src="gstcertificate.webp?v=20261027" alt="GST registration certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>gstcertificate.webp</span></div>
         <h3>GST registration</h3>
         <p>GSTIN 21BWGPS8907M1Z0<br>Regular, proprietorship</p>
-        <button class="btn btn-ghost btn-sm" type="button" data-open="gstcertificate.webp" style="color:var(--brand)">View certificate</button>
+        <button class="btn btn-ghost btn-sm" type="button" data-open="gstcertificate.webp?v=20261027" style="color:var(--brand)">View certificate</button>
       </article>
       <article class="cert">
-        <div class="media contain" data-img data-zoom="Udyam Registration Certificate"><img src="udyamcertificate.webp" alt="Udyam registration certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>udyamcertificate.webp</span></div>
+        <div class="media contain" data-img data-zoom="Udyam Registration Certificate"><img src="udyamcertificate.webp?v=20261027" alt="Udyam registration certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>udyamcertificate.webp</span></div>
         <h3>Udyam (MSME)</h3>
         <p>UDYAM-OD-13-0012056<br>Micro enterprise, services</p>
-        <button class="btn btn-ghost btn-sm" type="button" data-open="udyamcertificate.webp" style="color:var(--brand)">View certificate</button>
+        <button class="btn btn-ghost btn-sm" type="button" data-open="udyamcertificate.webp?v=20261027" style="color:var(--brand)">View certificate</button>
       </article>
       <article class="cert">
-        <div class="media contain" data-img data-zoom="Fosroc Authorised Applicator Certificate"><img src="fosroc.webp" alt="Fosroc authorised applicator certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>fosroc.webp</span></div>
+        <div class="media contain" data-img data-zoom="Fosroc Authorised Applicator Certificate"><img src="fosroc.webp?v=20261027" alt="Fosroc authorised applicator certificate"><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>fosroc.webp</span></div>
         <h3>Fosroc applicator</h3>
         <p>Authorised applicator, Fosroc Chemicals (India) Pvt. Ltd.<br>Valid until December 2027</p>
-        <button class="btn btn-ghost btn-sm" type="button" data-open="fosroc.webp" style="color:var(--brand)">View certificate</button>
+        <button class="btn btn-ghost btn-sm" type="button" data-open="fosroc.webp?v=20261027" style="color:var(--brand)">View certificate</button>
       </article>
     </div>
   </div>
@@ -682,7 +683,7 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
         <div class="why-item"><span class="ic"><svg aria-hidden="true"><use href="#i-file"/></svg></span><div><h3>Clear quotes and papers</h3><p>You get the scope, the rate and the timing in writing, and our registrations on file for your records.</p></div></div>
       </div>
     </div>
-    <div class="media" id="whyvid"><video autoplay muted loop playsinline preload="metadata" poster="whychooseus.webp" aria-label="M/S Sai Air Compressor team at work"><source src="whychooseus.mp4" type="video/mp4"></video><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>whychooseus.mp4</span></div>
+    <div class="media" id="whyvid"><video autoplay muted loop playsinline preload="metadata" poster="whychooseus.webp?v=20261027" aria-label="M/S Sai Air Compressor team at work"><source src="whychooseus.mp4?v=20261027" type="video/mp4"></video><span class="ph"><svg aria-hidden="true"><use href="#i-photo"/></svg>whychooseus.mp4</span></div>
   </div>
 </section>
 
@@ -712,21 +713,21 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
   </div>
   <div class="gal" id="gal" role="region" aria-roledescription="carousel" aria-label="Project photos" tabindex="0">
     <div class="gal-stage" id="gstage">
-<figure class="gslide"><img src="1.webp" alt="M/S Sai Air Compressor project photo 1" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="2.webp" alt="M/S Sai Air Compressor project photo 2" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="3.webp" alt="M/S Sai Air Compressor project photo 3" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="4.webp" alt="M/S Sai Air Compressor project photo 4" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="5.webp" alt="M/S Sai Air Compressor project photo 5" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="6.webp" alt="M/S Sai Air Compressor project photo 6" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="7.webp" alt="M/S Sai Air Compressor project photo 7" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="8.webp" alt="M/S Sai Air Compressor project photo 8" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="9.webp" alt="M/S Sai Air Compressor project photo 9" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="10.webp" alt="M/S Sai Air Compressor project photo 10" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="11.webp" alt="M/S Sai Air Compressor project photo 11" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="12.webp" alt="M/S Sai Air Compressor project photo 12" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="13.webp" alt="M/S Sai Air Compressor project photo 13" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="14.webp" alt="M/S Sai Air Compressor project photo 14" draggable="false" decoding="async"></figure>
-<figure class="gslide"><img src="15.webp" alt="M/S Sai Air Compressor project photo 15" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="1.webp?v=20261027" alt="M/S Sai Air Compressor project photo 1" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="2.webp?v=20261027" alt="M/S Sai Air Compressor project photo 2" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="3.webp?v=20261027" alt="M/S Sai Air Compressor project photo 3" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="4.webp?v=20261027" alt="M/S Sai Air Compressor project photo 4" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="5.webp?v=20261027" alt="M/S Sai Air Compressor project photo 5" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="6.webp?v=20261027" alt="M/S Sai Air Compressor project photo 6" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="7.webp?v=20261027" alt="M/S Sai Air Compressor project photo 7" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="8.webp?v=20261027" alt="M/S Sai Air Compressor project photo 8" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="9.webp?v=20261027" alt="M/S Sai Air Compressor project photo 9" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="10.webp?v=20261027" alt="M/S Sai Air Compressor project photo 10" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="11.webp?v=20261027" alt="M/S Sai Air Compressor project photo 11" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="12.webp?v=20261027" alt="M/S Sai Air Compressor project photo 12" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="13.webp?v=20261027" alt="M/S Sai Air Compressor project photo 13" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="14.webp?v=20261027" alt="M/S Sai Air Compressor project photo 14" draggable="false" decoding="async"></figure>
+<figure class="gslide"><img src="15.webp?v=20261027" alt="M/S Sai Air Compressor project photo 15" draggable="false" decoding="async"></figure>
       <div class="gal-flash" aria-hidden="true"></div>
       <button class="gal-nav prev" type="button" aria-label="Previous photo"><svg aria-hidden="true"><use href="#i-arrow-l"/></svg></button>
       <button class="gal-nav next" type="button" aria-label="Next photo"><svg aria-hidden="true" style="transform:scaleX(-1)"><use href="#i-arrow-l"/></svg></button>
@@ -867,13 +868,21 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
       if (userPaused || hover || document.hidden || slides.length < 2) return;
       timer = setTimeout(function () { go(idx + 1); schedule(); }, 2800);
     }
+    var mqm = window.matchMedia("(max-width: 640px)");
+    function fit() {
+      if (idx < 0) return;
+      if (!mqm.matches) { stage.style.aspectRatio = ""; return; }
+      var im = slides[idx].querySelector("img"), r = im.naturalWidth && im.naturalHeight ? im.naturalWidth / im.naturalHeight : 1.33;
+      stage.style.aspectRatio = String(Math.min(2, Math.max(.6, r)));
+    }
+    if (mqm.addEventListener) mqm.addEventListener("change", fit);
     function go(n, user) {
       var len = slides.length; n = (n + len) % len; if (n === idx) return;
       var prev = slides[idx];
       if (prev) { prev.classList.remove("on"); prev.classList.add("out"); setTimeout(function () { prev.classList.remove("out"); }, 650); }
       slides[n].classList.remove("out"); slides[n].classList.add("on");
       if (idx >= 0 && !reduce) { fl.classList.remove("go"); void fl.offsetWidth; fl.classList.add("go"); }
-      idx = n; count.textContent = (n + 1) + " / " + len;
+      idx = n; count.textContent = (n + 1) + " / " + len; fit();
       [].forEach.call(thumbs.children, function (t, i) { t.setAttribute("aria-current", i === n ? "true" : "false"); });
       var t = thumbs.children[n];
       if (t && thumbs.scrollTo) thumbs.scrollTo({ left: t.offsetLeft - (thumbs.clientWidth - t.clientWidth) / 2, behavior: "smooth" });
